@@ -470,6 +470,7 @@ h2 {
     justify-content: left;
     display: flex;
     margin: 38px 0 0 auto;
+    align-items: center;
 }
 
 .contactUsButtonText {
