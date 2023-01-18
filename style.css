@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inika:regular,700);
 @import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
 
-@media screen and ( max-width: 1024px ) {
+@media screen and ( max-width: 480px ) {
 
     html {
         scroll-behavior: smooth;
@@ -22,12 +22,734 @@
     }
     
     .wrapper {
-        width: 746px;
+        width: 380px;
         margin: 0 auto 0 auto;
     }
     
     .header {
-        width: 746px;
+        width: 380px;
+        height: 96px;
+        background: #EDF2EC;
+        align-items: center;
+        justify-content: flex-end;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    .header_content {
+        width: 330px;
+        padding: 0;
+        background: #EDF2EC;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .logoAndNameOfSite {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 77px;
+    }
+    
+    .logoCenter {
+        align-items: center;
+        margin: auto 0 auto 0;
+    }
+    
+    .nameOfSite {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin: 9px 0 0 0;
+        color: #000000;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: flex-end;
+        width: 50%;
+        display: none;
+    }
+    
+    .menu_list {
+        display: flex;
+        justify-content: flex-end;
+        list-style-type: none;
+        align-items: center;
+    }
+    .menu_link {
+        font-family: 'Inika';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 50px;
+        align-items: center;
+        margin: 0 0 0 46px;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    #menu_link_home {
+        color: #E06733;
+    }
+    
+    #menu_link_home:hover {
+        color: #010201;
+    }
+    
+    .mainPage {
+        width: 380px;
+        margin: 0 auto;
+    }
+    
+    .mainStart {
+        width: 380px;
+        height: 300px;
+        margin: 0 auto;
+        background-color: #EDF2EC;
+    }
+    
+    .mainContainer {
+        width: 330px;
+        height: 310px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row-reverse;
+    }
+    
+    .mainPicture {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .mainInfo {
+        width: 330px;
+        height: 72px;
+    }
+    
+    .leafs {
+        width: 280px;
+        height: 254px;
+        padding: 40px 0 0 0;
+        display: none;
+    }
+    
+    h1 {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #717171;
+        margin: 24px 0 0 0  ;
+        padding: 0px 0 0 0;
+        width: 330px;
+    }
+    
+    .mainText {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #717171;
+        margin: 20px 0 20px 0;
+        padding: 0px 0 0px 0;
+    }
+    
+    .partOfMainText {
+        color: #499A18;
+    }
+    
+    .btnLearnMore {
+        box-sizing: border-box;
+        width: 100px;
+        height: 34px;
+        border: 2px solid #E06733;
+        border-radius: 10px;
+        font-family: 'Inter';
+        font-weight: 400;
+        font-size: 10px;
+        color: black;
+        line-height: 20px;
+        padding: 0px 0px 0px 0px;
+        margin: 0 0 0 0;
+        text-decoration: none;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        transition: 0.3s;
+    }
+    
+    .btnLearnMore:hover {
+        color: white;
+        background-color: #E06733;
+        cursor: pointer;
+        box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
+    }
+    
+    .mainPage1 {
+        width: 380px;
+        height: 516px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+    }
+    
+    .main1 {
+        width: 330px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    
+    h2 {
+        font-family: Inika;
+        font-size: 35px;
+        font-weight: 400;
+        line-height: 45.61px;
+        font-style: normal;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #499A18;
+        margin: 0;
+        padding: 0 0 0 0;
+    }
+    
+    .professionalExperienced {
+        color: #E06733;
+    }
+    
+    .main1paragraph {
+        font-family: 'Inter';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin: 0;
+        padding: 0px 0 0 0;
+        font-style: normal;
+        width: 330px;
+    }
+    
+    br {
+        display: none;
+    }
+    
+    .main1container {
+        width: 50%;
+        margin: 0 0 0 0;
+        width: 330px;
+    }
+    
+    .weAre {
+        padding: 0px 0 0 0;
+        text-align: center;
+        width: 330px;
+        margin: 30px auto 22px auto;
+        display: block;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 33px;
+    }
+    
+    .image1 {
+        margin: 0px 0px 0px 0px;
+        display: flex;
+        padding: 0px 0 0 0;
+        justify-content: center;
+    }
+    
+    .houseplant {
+        max-width: 150px;
+    }
+    
+    .mainPage2 {
+        width: 380px;
+        height: 3171px;
+        margin: 0 auto;
+        background-color: #EDF2EC;
+    }
+    
+    .main2 {
+        width: 330px;
+        height: 3171px;
+        margin: 0 auto;
+    }
+    
+    .topPart {
+        width: 330px;
+        padding: 30px 0 0 0;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .serviceAndOurProjects {
+        height: 69px;
+        width: 187px;
+    }
+    
+    .serviceAndOurProjectsText {
+        font-family: 'Inika';
+        font-size: 25px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #499A18;
+        margin: 0px;
+        width: 187px;
+        padding: 0 0 0 0;
+    }
+    
+    .buttonsService {
+        width: 252px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 40px 0 0 0px;
+        flex-wrap: wrap;
+    }
+    
+    .btnService {
+        height: 35px;
+        width: 121px;
+        border-radius: 5px;
+        margin: 0 0 10px 0px;
+        border: 1px solid #E06733;
+        font-family: 'Inika';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        color: #E06733;
+        transition: 0.3s;
+    }
+    
+    .btnService:hover {
+        color: white;
+        background-color: #E06733;
+        cursor: pointer;
+        box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
+    }
+    
+    .footPart {
+        width: 330px;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 30px 0 0 0;
+        justify-content: center;
+    }
+    
+    .photoBlock {
+        margin: 0px 0 34px 0;
+        cursor: zoom-in;
+        border: 1px solid #E3E1D5;
+        border-radius: 20px 20px 20px 20px;
+        width: 280px;
+        height: 450px;
+    }
+    
+    .photoBlockPic {
+        left: 110px;
+        top: 224px;
+        background: url(pexels-frank-meriño-3612089.jpg);
+        border-radius: 20px 20px 0px 0px;
+    }
+    
+    .photoTransform {
+        transition: 0.3s;
+    }
+    
+    .photoTransform:hover {
+        transform: scale(1.23);
+    }
+    
+    .photoBlockName {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        margin: 10px 0 0 0;
+        text-align: center;
+        color: #E06733;
+    }
+    
+    .photoBlockNameP {
+        margin: 0 0 0 0;
+    }
+    
+    .photoBlockDescription {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        margin: 10px auto 0px auto;
+        text-align: center;
+        color: #717171;
+        width: 203px;
+        height: 42px;
+    }
+    
+    .mainPage3 {
+        width: 380px;
+        height: 512px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+    }
+    
+    .main3 {
+        width: 330px;
+        height: 512px;
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    .pricesLeftPart {
+        font-family: Inter;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0em;
+        margin: 25px 0 40px 0;
+        color: #000000;
+        text-align: center;
+    }
+    
+    .btnsLeftPart {
+        width: 224px;
+        height: 235px;
+        margin: 0 auto 0 auto;
+        border-radius: 20px;
+        border: 1px solid #E3E1D5
+    }
+
+    .btnContainer {
+        width: 180px;
+        height: 177px;
+        margin: 29px auto 29px auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .btnLeftPartInside {
+        font-family: Inter;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: #000000;
+        display: flex;
+        align-items: center;
+        width: 180px;
+        height: 49px;
+        background: #EDF2EC;
+        border-radius: 20px;
+        margin: 0px 0px 0px 0px;
+        justify-content: space-between;
+        transition: 0.3s;
+    }
+    
+    .btnLeftPartInside:hover {
+        background-color: #000000;
+        color: #EDF2EC;
+    }
+    
+    .btnLeftPartInsidetxt {
+        margin: 16px 0px 16px 40px;
+    }
+    
+    .accordion {
+        width: 16px;
+        height: 16px;
+        margin: 0px 40px 0px 0px;
+    }
+    
+    .rightPart {
+        width: 330px;
+        margin: 19px 0 0 0;
+    }
+    
+    .ourBestGardeners {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 35px;
+        letter-spacing: 0em;
+        color: #000000;
+        width: 230px;
+        text-align: right;
+        margin: 0px auto 0 auto;
+        text-align: center;
+    }
+    
+    .gardeners {
+        color: #499A18;
+    }
+    
+    .contactUsButton {
+        width: 162px;
+        height: 50px;
+        margin: 14px auto 40px auto;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .contactUsButtonText {
+        font-family: Inika;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: center;
+        color: #E06733;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #E06733;
+        border-radius: 5px;
+        text-decoration: none;
+        padding: 12px 32px 12px 32px;
+        background-color: white;
+        transition: 0.3s;
+    }
+    
+    .contactUsButtonText:hover {
+        color: white;
+        background-color: #E06733;
+        cursor: pointer;
+        box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.3);
+    }
+    
+    .leafs2 {
+        width: 152px;
+        height: 174.99px;
+        display: none;
+        justify-content: end;
+        padding: 34px 0 0 0;
+        margin: 0 0 0 auto;
+    }
+    
+    .mainPage4 {
+        width: 380px;
+        height: 445px;
+        margin: 0 auto;
+        background-color: #EDF2EC;
+    }
+    
+    .main4 {
+        width: 330px;
+        height: 445px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .girl {
+        max-width: 100px;
+        margin: 132px auto 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .girlimg {
+        max-width: 100px;
+    }
+
+    .contactUsAndCity {
+        width: 600px;
+        margin: 0 auto;
+    }
+    
+    .contactUsCenter {
+        font-family: Inika;
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 52px;
+        letter-spacing: 0em;
+        color: #499A18;
+        display: flex;
+        margin: 0 auto 0 auto;
+        justify-content: center;
+        text-align: center;
+        order: 1;
+    }
+    
+     .contactUsh6 {
+        margin: 25px auto 0 auto;
+        font-family: Inika;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0em;
+        width: 330px;
+        text-align: center;
+     }
+    
+    .choiceCity {
+        width: 300px;
+        height: 50px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: 1px solid #D6E7D2;
+        background-color: #D6E7D2;
+        display: flex;
+        margin: 80px auto 0 auto;
+    }
+    
+    .choiceCitySquare {
+        display: flex;
+        flex: auto;
+        align-items: center;
+        padding: 0 0 0 20px;
+        justify-content: space-between;
+    }
+    
+    .City {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0.05em;
+        color: #717171;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
+    }
+    
+    .accordionbtnfoot {
+        padding: 0 17px 0 0;
+        display: flex;
+    }
+    
+    .footerMain {
+        width: 380px;
+        height: 146px;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+    }
+    
+    .footerMainNarrow {
+        width: 330px;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .copyright {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0em;
+        display: flex;
+        height: 25px;
+        align-items: center;
+        margin: 33px 0 0 0;
+        width: 173px;
+        justify-content: space-between;
+    }
+    
+    .marginsCopyright {
+        margin: 0 0px 0 0;
+        color: black;
+    }
+    
+    .githubLink {
+        color: black;
+        margin: 0 0 0 0;
+    }
+    
+    .githubLink:hover {
+        color: #E06733;
+    }
+    
+    .rollingScopesSchool {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        margin: 16px 0 0 0;
+        line-height: 24px;
+        letter-spacing: 0em;
+    }
+    
+    .instfacetwipinLogo {
+        margin: 0 auto;
+    }
+    
+    .instfacetwipinLogoImg {
+        transition: 0.3s;
+    }
+    
+    .instfacetwipinLogoImg:hover {
+        transform: scale(1.23);
+    }
+    
+    .instfacetwipinList {
+        list-style-type: none;
+        display: flex;
+        padding: 0 0 0 0;
+        justify-content: space-between;
+    }    
+
+    .instfacetwipin {
+        width: 188px;
+        height: 51px;
+    }
+}
+
+
+
+
+
+
+
+
+@media screen and ( max-width: 1024px ) and ( min-width: 481px )  {
+
+    html {
+        scroll-behavior: smooth;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    a:hover {
+        color: #E06733; /* Цвет ссылки при наведении */ 
+        transform: 0.3s;
+    }
+
+    body {
+        margin: 0 0 0 0;
+    }
+    
+    .wrapper {
+        width: 768px;
+        margin: 0 auto 0 auto;
+    }
+    
+    .header {
+        width: 768px;
         height: 117px;
         background: #EDF2EC;
         align-items: center;
@@ -100,12 +822,12 @@
     }
     
     .mainPage {
-        width: 746px;
+        width: 768px;
         margin: 0 auto;
     }
     
     .mainStart {
-        width: 746px;
+        width: 768px;
         height: 420px;
         margin: 0 auto;
         background-color: #EDF2EC;
@@ -192,7 +914,7 @@
     }
     
     .mainPage1 {
-        width: 746px;
+        width: 768px;
         height: 783px;
         margin: 0 auto;
         background-color: #FFFFFF;
@@ -261,7 +983,7 @@
     }
     
     .mainPage2 {
-        width: 746px;
+        width: 768px;
         height: 1780px;
         margin: 0 auto;
         background-color: #EDF2EC;
@@ -394,7 +1116,7 @@
     }
     
     .mainPage3 {
-        width: 746px;
+        width: 768px;
         height: 585px;
         margin: 0 auto;
         background-color: #FFFFFF;
@@ -523,7 +1245,7 @@
     }
     
     .mainPage4 {
-        width: 746px;
+        width: 768px;
         height: 739px;
         margin: 0 auto;
         background-color: #EDF2EC;
@@ -538,11 +1260,10 @@
     }
     
     .girl {
-        max-width: 200px;
         max-height: 239px;
         margin: 250px auto 0 auto;
         display: flex;
-        align-items: center;
+        justify-content: center;
     }
 
     .girlimg {
@@ -566,6 +1287,7 @@
         margin: 0 auto 0 auto;
         justify-content: center;
         text-align: center;
+        order: 1;
     }
     
      .contactUsh6 {
@@ -616,7 +1338,7 @@
     }
     
     .footerMain {
-        width: 746px;
+        width: 768px;
         height: 181px;
         margin: 0 auto;
         background-color: #FFFFFF;
