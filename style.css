@@ -19,6 +19,7 @@
 
     body {
         margin: 0 0 0 0;
+        min-width: 380px;
     }
     
     .wrapper {
@@ -406,14 +407,12 @@
     
     .mainPage3 {
         width: 380px;
-        height: 512px;
         margin: 0 auto;
         background-color: #FFFFFF;
     }
     
     .main3 {
         width: 330px;
-        height: 512px;
         display: flex;
         margin: 0 auto;
         justify-content: space-between;
@@ -788,7 +787,7 @@
         margin: 9px 0 0 0;
         color: #000000;
     }
-    
+
     .menu {
         display: flex;
         justify-content: flex-end;
@@ -1485,6 +1484,10 @@ a:hover {
     line-height: 21px;
     margin: 9px 0 0 0;
     color: #000000;
+}
+
+.burger {
+    display: hidden;
 }
 
 .menu {
