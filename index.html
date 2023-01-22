@@ -12,33 +12,31 @@
             scroll-behavior: smooth;
         }
     </style>
-    <script src="./index.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script defer src="./index.js"></script>
 </head>
 <body>
     <div class="wrapper">
-        <header class="header">
+        <header class="header" id="header">
             <div class="header_content">
                 <div class="logoAndNameOfSite">
                     <img src="./img/logo_vector.png" class="logoCenter" alt="Logo of the site">
                     <p class="nameOfSite">Plants</p>
                 </div>
-                <div class="burger">
+                <button class="burger" id="burger">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                </div>
+                </button>
                 <nav class="menu">
                     <ul class="menu_list">
-                        <li><a href="#section1link" class="menu_link" id="menu_link_home">Home</a></li>
+                        <li><a href="#section1link" class="menu_link    " id="menu_link_home">Home</a></li>
                         <li><a href="#section2link" class="menu_link">About us</a></li>
                         <li><a href="#section3link" class="menu_link">Service</a></li>
                         <li><a href="#section4link" class="menu_link">Price</a></li>
                         <li><a href="#section5link" class="menu_link">Contacts</a></li>
                     </ul>
                 </nav>
-                <div class="popup" id="popup"></div>
             </div>
         </header>
         <main class="mainPage">
