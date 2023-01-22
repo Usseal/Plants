@@ -148,14 +148,6 @@
         color: white;
     }
     
-    #menu_link_home {
-        color: #E06733;
-    }
-    
-    #menu_link_home:hover {
-        color: #010201;
-    }
-    
     .mainPage {
         width: 380px;
         margin: 0 auto;
@@ -869,15 +861,7 @@
         margin: 0 0 0 46px;
         text-decoration: none;
         color: #000000;
-    }
-    
-    #menu_link_home {
-        color: #E06733;
-    }
-    
-    #menu_link_home:hover {
-        color: #010201;
-    }
+    }  
     
     .mainPage {
         width: 768px;
@@ -1571,14 +1555,6 @@ a:hover {
     margin: 0 0 0 33px;
     text-decoration: none;
     color: #000000;
-}
-
-#menu_link_home {
-    color: #E06733;
-}
-
-#menu_link_home:hover {
-    color: #010201;
 }
 
 .mainPage {
